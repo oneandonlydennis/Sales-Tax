@@ -1,0 +1,5 @@
+To run this program, you have 2 options:
+-Open the HTML file (I didn't style it, sorry :P) and insert Product name and Price (you can use a decimal point :)). Then click "add to list".
+Once you finished entering your products, you can click on "create receipt", and see that it calculates the tax, total value, etc. just fine 
+-Using Jest to run the testdata via cart.test.js (this should be easier but it doesn't work, 99% sure it's because I'm not familiar with Jest
+And because of that have messed up some input. As you can see the code runs fine within the HTML, so i'm pretty sure it's me messing up the jest stuff..)
