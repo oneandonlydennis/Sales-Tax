@@ -35,7 +35,8 @@
         $("#order_list").append("<li>"+product_name+"</li>");
     }
 
-
+    // this function basically makes it so you can enter any number (48~57), a dot IMPLYING none are standing there yet (46), and delete / escape (8 & 0).
+    // other characters will not be registered as input!
     $('.price').keypress(function(event) {
       if ((event.which != 46 || $(this).val().indexOf('.') != -1) &&
         ((event.which < 48 || event.which > 57) &&

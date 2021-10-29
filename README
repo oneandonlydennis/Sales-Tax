@@ -1,5 +1,10 @@
 Welcome to my Sales Tax tool! This tool calculates the amount of tax per item, and returns the value in a list.
 
-To run this program, simply enter your product name and the price (excluding tax) into the input fields in the HTML file.
+There are 2 ways to run this program:
+
+-Firstly, you can use Jest to run the test. I do this by having the folder open in VSC, and then opening the terminal. 
+In the terminal I will run npm run test, after which it will loop through all the made test data.
+
+-alternatively, you can simply enter your product name and the price (excluding tax) into the input fields in the HTML file.
 Once you have entered an orderline, click on "add to list", and enter your new orderline. Once done with every line, you can click on "create receipt"
 This will show the total price (including tax), the total amount taxed, and the total price.
