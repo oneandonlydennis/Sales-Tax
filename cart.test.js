@@ -3,13 +3,6 @@ const addToCart = require('./cart');
 const createReceipt = require('./cart');
 const cart = require('./cart');
 
-// const testCases = test.each`
-// product_name        | price     | expected
-// ${'book'}           | ${12.49}  | ${12.49}
-// ${'Chocolate Bar'}  | ${0.85}   | ${0.85}
-// ${'Music CD'}       | ${14.99}  | ${16.49}
-// `
-
 const testData = [
     {product_name: 'book', price: 12.49}, 
     {product_name: 'Chocolate Bar', price: 0.85}, 
